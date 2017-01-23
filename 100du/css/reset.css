@@ -1,0 +1,102 @@
+
+html,
+body {
+	width: 100%;
+}
+
+body {
+	font-family: San Francisco, SimHei, Microsoft Yahei;
+	-webkit-text-size-adjust: 100%;
+	color: #999;
+}
+
+body,
+div,
+ol,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+dt,
+form,
+iframe,
+input,
+textarea,
+select,
+label,
+article,
+aside,
+footer,
+header,
+menu,
+nav,
+section,
+time,
+audio,
+video,
+input,
+button,
+sub {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+textarea,
+button {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	outline: none;
+	border: 0;
+	font-family: San Francisco, SimHei, Microsoft Yahei;
+}
+
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section,
+audio,
+canvas,
+video,
+button {
+	display: block;
+}
+
+a:link {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
+}
+
+em,
+i,
+b {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+ul,
+li {
+	list-style: none;
+}

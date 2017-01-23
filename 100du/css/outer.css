@@ -1,0 +1,28 @@
+.outer{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+#header{
+	height: 30px;
+}
+#nav{
+	height: 90px;
+}
+#search{
+	height: 114px;
+	width: 958px;
+	margin-top: 10px;
+}
+#main{
+	height: 2050px;
+}
+#footer{
+	width: 958px;
+	height: 58px;
+	padding-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #f9f9f9;
+}
+

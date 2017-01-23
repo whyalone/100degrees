@@ -1,0 +1,17 @@
+#footer{
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	text-align: center;
+}
+#footer a{
+	width: 70px;
+	height: 12px;
+	line-height: 12px;
+	/*text-align: center;*/
+	display: inline-block;
+	color: #454545;
+	border-right:1px solid #919191;
+}
+#footer p{
+	margin-top: 5px;
+}

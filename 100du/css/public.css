@@ -1,0 +1,281 @@
+.clear{
+	zoom: 0;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.round_4 {
+	border-radius: 4px;
+}
+.round_6 {
+	border-radius: 6px;
+}
+.round_8 {
+	border-radius: 8px;
+}
+
+.round_8_up_half {
+	border-radius: 8px 8px 0 0;
+}
+
+.round_8_down_half {
+	border-radius: 0 0 8px 8px;
+}
+
+.shadow_1_1 {
+	box-shadow: 1px 1px 1px #efefef;
+}
+.shadow_3_3 {
+	box-shadow: 1px 3px 3px #d2d2d2;
+}
+.shadow_2_3_i {
+	box-shadow: 2px 3px 3px #ca8c83 inset;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+.border_1{
+	border: 1px solid #e5e5e5;
+}
+/* 标题tab */
+.title_tap_active {
+	height: 34px;
+	margin-bottom: -1px;
+	background: #fff;
+}
+.title_tap_inactive {
+	height: 33px;
+	background: linear-gradient(#ffffff, #f3f3f3);
+}
+.title_tap_active b {
+	margin-left: 22px;
+	color: #cc0d13;
+}
+.title_tap_inactive b {
+	margin-left: 22px;
+	color: #666666;
+}
+.title_tap_active strong {
+	margin-left: 9px;
+}
+.title_tap_inactive strong {
+	margin-left: 9px;
+}
+.title_tap_active span {
+	left: 153px;
+	border-left: 4px solid #fff;
+	border-right: 4px solid #fff;
+	border-top: 4px solid #ca0309;
+}
+.title_tap_inactive span {
+	left: 153px;
+	border-left: 4px solid #f9f9f9;
+	border-right: 4px solid #f9f9f9;
+	border-top: 4px solid #c1c1c1;
+}
+.title_tap_inactive:hover {
+	background: #fff;
+}
+
+
+
+/*标题带有更多*/
+.title_with_more{
+	height: 28px;
+	margin-left: 15px;
+	position: relative;
+	padding-top: 12px;
+}
+.title_with_more h2{
+	font-size: 14px;
+	color: #010000;
+	
+}
+.title_with_more span{
+	color: #cc0d13;
+	margin-right: 5px;
+}
+.title_with_more a{
+	width: 37px;
+	height: 13px;
+	position: absolute;
+	right:15px;
+	top:14px;
+	display: block;
+	background: url(../img/more.png) no-repeat;
+	cursor: pointer;
+}
+/*带标签页列表*/
+.list_tab{
+	height: 25px;
+	margin: 0 15px;
+	padding: 0 10px;
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #666666;
+}
+.list_tab li{
+	height: 24px;
+	line-height: 24px;
+	text-indent: 22px;
+	margin-right: -1px;
+	float: left;
+	background: linear-gradient(#f3f3f3,#ffffff);
+	position: relative;
+	border: 1px solid #e3e3e3;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+	cursor: pointer;
+}
+.list_tab span{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	right: 12px;
+	top: 10px;
+	border-left: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    border-top: 4px solid #c1c1c1;
+}
+.list_tab .list_tab_avtive{
+	height: 25px;
+	margin-bottom: -1px;
+	background: #FFF;
+	font-weight: bold;
+}
+.list_tab .list_tab_avtive span{
+	 border-top: 4px solid #ca0309;
+}
+/*commen_list*/
+.commen_list{
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #767676;
+	margin:0 15px;
+	border-top: 1px solid #cbcbca;
+}
+.commen_list li{
+	height: 27px;
+	line-height: 27px;
+	border-bottom: 1px dashed  #cbcbca;
+}
+.commen_list span{
+	width: 3px;
+	height: 3px;
+	background: #d4051f;
+	vertical-align: top;
+	margin: 12px 6px 0 6px;
+	margin-right: 6px;
+	display: inline-block;
+}
+.commen_list b{
+	vertical-align: top;
+	color: #c75d61;
+	display: inline-block;
+}
+.commen_list p{
+	color: #454545;
+	white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    vertical-align: top;
+	margin: 0 0 0 8px;
+	cursor: pointer;
+}
+.commen_list p:hover{
+	text-decoration: underline;
+}
+.commen_list strong{
+	width: 62px;
+	height: 27px;
+	font-weight: normal;
+	background: url(../img/life_style_ico.png) no-repeat 0 0;
+	vertical-align: top;
+	display: inline-block;
+}
+.commen_list .commen_list_title{
+	height: 30px;
+	line-height: 30px;
+}
+.commen_list .commen_list_title b{
+	width: 256px;
+	text-align: center;
+	color: #999999;
+}
+.commen_list .commen_list_title strong{
+	width: 62px;
+	text-align: center;
+	background: none;
+	color: #999999;
+}
+/*带图片列表*/
+
+.hot_shop_list {
+	height: 342px;
+	padding: 15px 0 4px 15px;
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+	background: #fff;
+}
+
+.hot_shop_list>li {
+	width: 318px;
+	height: 108px;
+	margin-bottom: 6px;
+	background: url(../img/hot_shop_bg.png) no-repeat;
+	position: relative;
+}
+
+.hot_shop_list>li img {
+	width: 106px;
+	height: 86px;
+	margin-top: 10px;
+	border: 1px solid #e5e5e5;
+}
+
+.hot_shop_list>li ul {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	color: #6e6e6e;
+	margin-top: 7px;
+	margin-left: 20px;
+}
+
+.hot_shop_list ul li {
+	line-height: 16px;
+}
+
+.hot_shop_list .hot_shop_name {
+	color: #bb0d0d;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.hot_shop_list .hot_shop_name:hover {
+	text-decoration: underline;
+}
+.hot_shop_list .hot_shop_save {
+	width: 42px;
+	height: 42px;
+	padding-top: 6px;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	text-indent: -4px;
+	line-height: 14px;
+	background: url(../img/save.png) no-repeat;
+	position: absolute;
+	left: 70px;
+	top: 60px;
+}
+
+.hot_shop_list .hot_shop_save span {
+	color: #d90000;
+}

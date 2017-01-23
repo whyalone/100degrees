@@ -1,0 +1,84 @@
+#nav{
+	font: "microsoft yahei";
+	font-size: 12px;
+	color: #333;
+}
+#nav h1{
+	height: 64px;
+	width: 260px;
+	background: url(../img/nav_logo.png) no-repeat 18px 0px;
+	display: block;
+	margin-top: 10px;
+}
+#nav ul{
+	margin: 10px 10px 0px 10px;
+}
+#nav li{
+	width: 46px;
+	height: 64px;
+	margin: 0 10px;
+	line-height: 114px;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+}
+#nav .nav_0{
+	background: url(../img/nav_ico.png) no-repeat 0 0;
+}
+#nav .nav_1{
+	background: url(../img/nav_ico.png) no-repeat -48px 0;
+}
+#nav .nav_2{
+	background: url(../img/nav_ico.png) no-repeat -96px 0;
+}
+#nav .nav_3{
+	background: url(../img/nav_ico.png) no-repeat -144px 0;
+}
+#nav .nav_4{
+	background: url(../img/nav_ico.png) no-repeat -192px 0;
+}
+#nav .nav_5{
+	background: url(../img/nav_ico.png) no-repeat -240px 0;
+}
+#nav .nav_6{
+	background: url(../img/nav_ico.png) no-repeat -288px 0;
+}
+#nav .nav_7{
+	background: url(../img/nav_ico.png) no-repeat -336px 0;
+}
+#nav .nav_8{
+	background: url(../img/nav_ico.png) no-repeat -384px 0;
+}
+#nav .nav_9{
+	background: url(../img/nav_ico.png) no-repeat -432px 0;
+}
+#nav .nav_0:hover{
+	background: url(../img/nav_ico.png) no-repeat 0 -68px;
+}
+#nav .nav_1:hover{
+	background: url(../img/nav_ico.png) no-repeat -48px -68px;
+}
+#nav .nav_2:hover{
+	background: url(../img/nav_ico.png) no-repeat -96px -68px;
+}
+#nav .nav_3:hover{
+	background: url(../img/nav_ico.png) no-repeat -144px -68px;
+}
+#nav .nav_4:hover{
+	background: url(../img/nav_ico.png) no-repeat -192px -68px;
+}
+#nav .nav_5:hover{
+	background: url(../img/nav_ico.png) no-repeat -240px -68px;
+}
+#nav .nav_6:hover{
+	background: url(../img/nav_ico.png) no-repeat -288px -68px;
+}
+#nav .nav_7:hover{
+	background: url(../img/nav_ico.png) no-repeat -336px -68px;
+}
+#nav .nav_8:hover{
+	background: url(../img/nav_ico.png) no-repeat -384px -68px;
+}
+#nav .nav_9:hover{
+	background: url(../img/nav_ico.png) no-repeat -432px -68px;
+}

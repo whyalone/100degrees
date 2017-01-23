@@ -1,0 +1,165 @@
+#search {
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	border: 1px solid #dbdbdb;
+	background: linear-gradient(#ffffff, #f5f5f5);
+	position: relative;
+}
+
+#search form {
+	height: 64px;
+	width: 956px;
+	line-height: 58px;
+	border: 1px solid #c40d0e;
+	display: block;
+	margin-top: 16px;
+	background: #e21c01;
+}
+
+#search input[type=text] {
+	width: 380px;
+	height: 22px;
+	line-height: 22px;
+	color: #ea7a7a;
+	padding: 0 12px;
+	margin-left: 226px;
+}
+
+#search input[type=submit] {
+	width: 60px;
+	height: 23px;
+	margin-left: 10px;
+	background: url(../img/search_btn.png) no-repeat;
+	border-radius: 12px;
+	box-shadow: 2px 3px 1px #ab0900;
+}
+
+#search p {
+	color: #fbfbfb;
+	margin-top: 11px;
+	margin-right: 34px;
+	line-height: 18px;
+	display: block;
+	cursor: pointer;
+}
+
+#search p a:hover {
+	text-decoration: underline;
+}
+
+#search #update {
+	width: 414px;
+	height: 32px;
+	line-height: 30px;
+	margin-left: 226px;
+	position: relative;
+}
+
+#search span {
+	height: 32px;
+	margin-right: 5px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#search img {
+	width: 50px;
+	height: 13px;
+	margin-bottom: -2px;
+}
+
+#search #username {
+	width: 30px;
+	color: #d30703;
+	margin-left: 5px;
+	cursor: pointer;
+}
+#search #username:hover{
+	text-decoration: underline;
+}
+
+#search #time {
+	width: 60px;
+	color: #999999;
+}
+
+#search #title {
+	width: 214px;
+	color: #000000;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+
+#search #title:hover {
+	text-decoration: underline;
+}
+#search #up_triangle{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 4px solid #f6f6f6;
+	border-right: 4px solid #f6f6f6;
+	border-bottom: 4px solid #ca0309;
+	left: 397px;
+	top: 10px;
+	cursor: pointer;
+}
+#search #down_triangle{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 4px solid #f6f6f6;
+	border-right: 4px solid #f6f6f6;
+	border-top: 4px solid #ca0309;
+	left: 397px;
+	top: 19px;
+	cursor: pointer;
+}
+
+#search #tag{
+	width: 163px;
+	height: 122px;
+	position: absolute;
+	left: 31px;
+	top: -3px;
+}
+#search #tap{
+	position: absolute;
+	top: -10px;
+	left: 227px;
+}
+#search #tap li{
+	width: 78px;
+	height: 25px;
+	font-size: 14px;
+	color: #000;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+	margin-left: 1px;
+	background: #fcfcfc;
+	border: 1px solid #f8d0bf;
+	border-bottom: none;
+	border-radius:7px 7px 0 0;
+	box-shadow: 3px -1px 2px #e2e2e2;
+	cursor: pointer;
+}
+#search #tap .tap_active{
+	height: 27px;
+	width: 78px;
+	line-height: 27px;
+	margin-top: -1px;
+	background: #e21c01;
+	color: #fbfbfb;
+	font-weight: bold;
+	border-color: #c40d0e;
+	text-shadow: 2px 2px 1px #b41601;;
+}
+#search #tap li:hover{
+	color: #fbfbfb;
+	font-weight: bold;
+	background: #e21c01;
+}

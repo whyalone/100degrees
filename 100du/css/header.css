@@ -1,0 +1,60 @@
+#header{
+	font-family: "microsoft yahei";
+	font-size: 12px;
+	 background: linear-gradient(#ffffff, #f8f8f8);
+}
+#header ul{
+	margin-left: 10px;
+}
+#header li{
+	width: 39px;
+	height: 18px;
+	color:#999999;
+	cursor: pointer;
+	margin: 4px 0 6px 5px;
+	text-align: center;
+	line-height: 18px;
+}
+#header li:hover{
+	color: red;
+	background: #ddd;
+}
+#header .change_city{
+	width: 70px;
+	color: #666666;
+	border:1px solid #;
+	
+}
+#header .city_active{
+	color:#d60d03;
+	cursor: pointer;
+}
+#header .city_active:hover{
+	color: red;
+	background: #ddd;
+}
+
+#header>a{
+	width: 58px;
+	height: 12px;
+	text-align: center;
+	margin: 8px 0 10px 0 ;
+	padding: 0 10px 0px 20px;
+	line-height: 12px;
+	display: block;
+	cursor: pointer;
+}
+#header .manage{
+	margin-right: 15px;
+	background: url(../img/header_bg2.png) no-repeat 5px -18px;
+}
+#header .manage:hover{
+	color:#d60d03;
+}
+#header .join{
+	border-right: 1px solid #d5d5d5;
+	background: url(../img/header_bg2.png) no-repeat 0px 0px;
+}
+#header .join:hover{
+	color:#d60d03;
+}
